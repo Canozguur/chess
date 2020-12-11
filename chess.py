@@ -533,7 +533,7 @@ class Play_game():
                         element= element.replace("BR","♜|").replace("BH","♞|").replace("BB","♝|").replace("BQ","♛|").replace("BK","♚|").replace("BP","♟|").replace("WR","♖|").replace("WH","♘").replace("WB","♗").replace("WQ","♕|").replace("WK","♔|").replace("WP","♙|").replace("  "," |")
                         print(element,end=" ")
                     print("")
-                print(" ", "A ", "B ", "C", "D ", "E ", "F ", "G", "H ")
+                print(" ", "A  ", "B  ", "C ", "D  ", "E  ", "F ", "G  ", "H ")
                 # -----------------------------------------------------------------------
                 first = input("first side ")  # first side inputs is  which spot to select your rock,for playing
                 first_column = first[0]
